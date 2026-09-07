@@ -1,0 +1,16 @@
+| Dataset | Type | Metric | LBA/LEQ | Vanilla | Retrieval | Gain |
+| --- | --- | --- | --- | --- | --- | --- |
+| california_housing | Reg | RMSE | 0.733 | 74511.49 | 49964.38 | +0.329 |
+| wine_quality | Reg | RMSE | 0.384 | 0.8832 | 0.6708 | +0.240 |
+| concrete_compressive_strength | Reg | RMSE | 0.612 | 9.9707 | 6.8603 | +0.312 |
+| energy_efficiency | Reg | RMSE | 0.886 | 5.9180 | 3.3538 | +0.433 |
+| kin8nm | Reg | RMSE | 0.559 | 0.2997 | 0.1338 | +0.553 |
+| adult | Cls | Acc | 0.083 | 0.850 | 0.830 | -0.020 |
+| credit-g | Cls | Acc | 0.000 | 0.700 | 0.650 | -0.050 |
+| diabetes | Cls | Acc | 0.045 | 0.710 | 0.720 | +0.010 |
+| phoneme | Cls | Acc | 0.085 | 0.780 | 0.820 | +0.040 |
+| vehicle | Cls | Acc | 0.312 | 0.530 | 0.740 | +0.210 |
+| segment | Cls | Acc | 0.686 | 0.800 | 0.920 | +0.120 |
+| page-blocks | Cls | Acc | 0.034 | 0.940 | 0.980 | +0.040 |
+| satimage | Cls | Acc | 0.617 | 0.680 | 0.850 | +0.170 |
+| letter | Cls | Acc | 0.756 | 0.250 | 0.950 | +0.700 |

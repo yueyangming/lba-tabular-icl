@@ -1,0 +1,17 @@
+dataset,k,method,query_count,accuracy,f1_macro
+letter,16,vanilla_icl,50,0.08,0.06483516483516483
+letter,16,retrieval_icl,50,1.0,1.0
+letter,32,vanilla_icl,50,0.22,0.13705738705738704
+letter,32,retrieval_icl,50,0.98,0.9857142857142858
+letter,64,vanilla_icl,50,0.2,0.10006959706959707
+letter,64,retrieval_icl,50,0.98,0.9777777777777779
+letter,100,vanilla_icl,50,0.2,0.16666666666666663
+letter,100,retrieval_icl,50,0.96,0.9288888888888889
+diabetes,16,vanilla_icl,50,0.64,0.609375
+diabetes,16,retrieval_icl,50,0.58,0.5586380832282472
+diabetes,32,vanilla_icl,50,0.66,0.6155585707824514
+diabetes,32,retrieval_icl,50,0.62,0.5824175824175825
+diabetes,64,vanilla_icl,50,0.64,0.5989304812834224
+diabetes,64,retrieval_icl,50,0.62,0.5824175824175825
+diabetes,100,vanilla_icl,50,0.68,0.6323529411764706
+diabetes,100,retrieval_icl,50,0.66,0.6263736263736264

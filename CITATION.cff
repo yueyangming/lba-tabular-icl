@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Code for Local Bayes Advantage for Selective Retrieval in Tabular In-Context Learning"
+type: software
+repository-code: "https://github.com/yueyangming/lba-tabular-icl"
+version: 1.0.0
+authors:
+  - family-names: Yue
+    given-names: Yangming
+  - family-names: Luo
+    given-names: Shengwen
+  - family-names: Liu
+    given-names: Sanchao
+  - family-names: Ye
+    given-names: Wenyu
+  - family-names: Xiao
+    given-names: Ke
+  - family-names: Li
+    given-names: Ye
+preferred-citation:
+  type: conference-paper
+  title: "Local Bayes Advantage for Selective Retrieval in Tabular In-Context Learning"
+  year: 2026
+  conference:
+    name: "IEEE International Conference on Data Mining"
+  authors:
+    - family-names: Yue
+      given-names: Yangming
+    - family-names: Luo
+      given-names: Shengwen
+    - family-names: Liu
+      given-names: Sanchao
+    - family-names: Ye
+      given-names: Wenyu
+    - family-names: Xiao
+      given-names: Ke
+    - family-names: Li
+      given-names: Ye

@@ -1,0 +1,3 @@
+timestamp_utc,dataset,task_type,llm_model,eval_examples,k,thinking_budget,selection_strategy,method,rmse,r2
+2026-04-03T09:21:29.271612+00:00,kin8nm,regression,meta-llama/llama-3.3-70b-instruct,100,16,,none,vanilla_icl,1.7976018244255494,-37.92467092877451
+2026-04-03T09:21:29.271664+00:00,kin8nm,regression,meta-llama/llama-3.3-70b-instruct,100,16,,balanced,retrieval_icl,1.3198684455092617,-19.984529764403074

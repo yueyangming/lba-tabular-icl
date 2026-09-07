@@ -1,0 +1,3 @@
+timestamp_utc,dataset,task_type,llm_model,eval_examples,k,thinking_budget,selection_strategy,method,accuracy,f1_macro
+2026-04-03T09:33:22.594124+00:00,letter,classification,meta-llama/llama-3.3-70b-instruct,50,100,,none,vanilla_icl,0.04,0.013852813852813853
+2026-04-03T09:33:22.594226+00:00,letter,classification,meta-llama/llama-3.3-70b-instruct,50,100,,matched_pair_boundary,retrieval_icl,0.24,0.2651515151515152

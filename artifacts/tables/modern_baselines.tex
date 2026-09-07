@@ -1,0 +1,10 @@
+\begin{tabularx}{\textwidth}{lclX}
+\toprule
+Method family & Coverage & Representative result & Role in this paper \\
+\midrule
+CatBoost & 14/14 & strong supervised tree reference; e.g., concrete $R^2=0.922$ & classical tabular predictor reference \\
+TabICL & 9 cls & strongest on several classification tasks; letter macro-F1 $0.9905$ & tabular foundation-model envelope \\
+TabPFN V2/V2.5 & 11/14, 13/14 & strong regression; V2.5 kin8nm $R^2=0.9307$ and california $R^2=0.8631$ & tabular foundation-model envelope and applicability reference \\
+Frozen LLM + retrieval & 14/14 & large gains in high-LBA regimes; letter accuracy $0.25\to0.95$ & object diagnosed and routed by LBA \\
+\bottomrule
+\end{tabularx}

@@ -1,0 +1,40 @@
+paper:
+  title: Local Bayes Advantage for Selective Retrieval in Tabular In-Context Learning
+  venue: IEEE International Conference on Data Mining
+  year: 2026
+
+split:
+  train_fraction: 0.60
+  validation_fraction: 0.20
+  test_fraction: 0.20
+  seed: 42
+  stratify_classification: true
+
+primary_model:
+  provider: aliyun
+  model: qwen3.5-397b-a17b
+  temperature: 0.0
+  thinking_budget: 1
+
+classification:
+  datasets: [adult, credit-g, diabetes, phoneme, vehicle, segment, page-blocks, satimage, letter]
+  metric: accuracy
+  secondary_metric: macro_f1
+  k: 100
+  selector: matched_pair_boundary
+
+regression:
+  datasets: [california_housing, wine_quality, concrete_compressive_strength, energy_efficiency, kin8nm]
+  metric: rmse
+  secondary_metric: r2
+  k: 16
+  selector: balanced
+
+gating:
+  validation_examples: 50
+  test_examples: 100
+  k: 100
+
+cross_family:
+  provider: openrouter
+  model: meta-llama/llama-3.3-70b-instruct

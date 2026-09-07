@@ -1,0 +1,43 @@
+datasets:
+  - name: california_housing
+    dataset_id: 43939
+    task_type: regression
+  - name: wine_quality
+    dataset_id: 287
+    task_type: regression
+  - name: concrete_compressive_strength
+    dataset_id: 44959
+    task_type: regression
+  - name: energy_efficiency
+    dataset_id: 43918
+    task_type: regression
+  - name: kin8nm
+    dataset_id: 189
+    task_type: regression
+  - name: diabetes
+    dataset_id: 37
+    task_type: classification
+  - name: adult
+    dataset_id: 1590
+    task_type: classification
+  - name: credit-g
+    dataset_id: 31
+    task_type: classification
+  - name: phoneme
+    dataset_id: 1489
+    task_type: classification
+  - name: vehicle
+    dataset_id: 54
+    task_type: classification
+  - name: segment
+    dataset_id: 36
+    task_type: classification
+  - name: page-blocks
+    dataset_id: 30
+    task_type: classification
+  - name: satimage
+    dataset_id: 182
+    task_type: classification
+  - name: letter
+    dataset_id: 6
+    task_type: classification

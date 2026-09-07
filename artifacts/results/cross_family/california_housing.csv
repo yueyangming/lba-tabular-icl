@@ -1,0 +1,3 @@
+timestamp_utc,dataset,task_type,llm_model,eval_examples,k,thinking_budget,selection_strategy,method,rmse,r2
+2026-04-03T08:39:53.841179+00:00,california_housing,regression,meta-llama/llama-3.3-70b-instruct,100,16,,none,vanilla_icl,222127.8763649902,-3.3091819400320546
+2026-04-03T08:39:53.841245+00:00,california_housing,regression,meta-llama/llama-3.3-70b-instruct,100,16,,balanced,retrieval_icl,219824.4270698217,-3.220273547065937
